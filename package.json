@@ -1,0 +1,20 @@
+{
+  "name": "cerebe-demo",
+  "version": "0.4.0",
+  "description": "Orders and refunds service for the storefront back office",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/",
+    "nightly": "node src/jobs/nightly.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "latest",
+    "dayjs": "*"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
