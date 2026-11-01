@@ -1,0 +1,4 @@
+node_modules/
+receipts/
+*.log
+.env

@@ -1,0 +1,7 @@
+{
+  "partner": {
+    "callbackBaseUrl": "https://partner.example.com/hooks",
+    "webhookSecret": "demo_live_4f9b2c71e8a04d6f9c3b5a1e7d2f8b60"
+  },
+  "logLevel": "debug"
+}
